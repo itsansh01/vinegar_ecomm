@@ -1,0 +1,66 @@
+.section{
+    height: 200px;
+    background-color: aqua;
+    margin: 0px auto;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.section img{
+    width: 100%;
+}
+.banner1{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    color: white;
+}
+#contact{
+    background-image: url(../images/yellow1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+#contact .col-sm-12{
+    background-color: rgba(244, 167, 44, 0.4);
+}
+#contact .col-sm-12 h1{
+    line-height: 190px;
+}
+nav ul li a:hover{
+    color: orange !important;
+}
+.text-justify{
+    text-align: justify !important;
+}
+.footer{
+    height: 400px;
+    
+}
+.registerform{
+    background-image: url(../images/rbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginform{
+    background-image: url(../images/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mybtn:hover{
+    color: gold !important;
+    font-weight: bolder;
+}
+.mybtn i{
+    transition: 0.5s ease;
+}
+.mybtn:hover i{
+    margin-left: 20px;
+}
+.welcome{
+    font-family: monotype corsiva !important;
+    color: navy !important;
+}
